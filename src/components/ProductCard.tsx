@@ -18,7 +18,7 @@ export interface Props {
     style?: React.CSSProperties;
     onChange?: ( args: onChangeArgs ) => void;
     value?: number;
-    initialValues:InitialValues,
+    initialValues?:InitialValues,
 }
 
 
